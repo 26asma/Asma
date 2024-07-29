@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABOUT</title>
+  <style>
+    .content {
+      opacity: 0;
+      transform: translatey(20px);
+      animation: fadeinup 5s forwards;
+    }
+
+    @keyframes fadeinup {
+      0% {
+        opacity: 0;
+        transform: translatey(20px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translatey(0);
+      }
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+     .scrolling-container .card {
+   width: 300px;
+    margin: 20px;
+  } 
+  
+  .scrolling-container {
+   overflow-x: scroll;
+   overflow-y: hidden;
+    display: flex; 
+    padding: 10px 0; 
+  }
+.scrolling-container::-webkit-scrollbar{
+  display: none;
+}
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/9fdb3dd115.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme=dark>
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse d-lg-flex" id="navbarNavAltMarkup">
+        <a class="navbar-brand col-lg-3 me-0" href="#">Vanaikar Asma</a>
+        <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="myworks.html">My works</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+
+          </li>
+
+        </ul>
+        <div class="icons d-lg-flex gap-4 ">
+          <a href="https://www.instagram.com/tangled_words26/"><i class="bi bi-instagram"><svg
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-instagram"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+              </svg></i></a>
+          <a href="https://www.threads.net/@tangled_words26?xmt=AQGzTi356pJYBI7EBThCRD18inIsJrRX9DOo2EAXdROoQ0I"><i
+              class="bi bi-threads"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                class="bi bi-threads" viewBox="0 0 16 16">
+                <path
+                  d="M6.321 6.016c-.27-.18-1.166-.802-1.166-.802.756-1.081 1.753-1.502 3.132-1.502.975 0 1.803.327 2.394.948s.928 1.509 1.005 2.644q.492.207.905.484c1.109.745 1.719 1.86 1.719 3.137 0 2.716-2.226 5.075-6.256 5.075C4.594 16 1 13.987 1 7.994 1 2.034 4.482 0 8.044 0 9.69 0 13.55.243 15 5.036l-1.36.353C12.516 1.974 10.163 1.43 8.006 1.43c-3.565 0-5.582 2.171-5.582 6.79 0 4.143 2.254 6.343 5.63 6.343 2.777 0 4.847-1.443 4.847-3.556 0-1.438-1.208-2.127-1.27-2.127-.236 1.234-.868 3.31-3.644 3.31-1.618 0-3.013-1.118-3.013-2.582 0-2.09 1.984-2.847 3.55-2.847.586 0 1.294.04 1.663.114 0-.637-.54-1.728-1.9-1.728-1.25 0-1.566.405-1.967.868ZM8.716 8.19c-2.04 0-2.304.87-2.304 1.416 0 .878 1.043 1.168 1.6 1.168 1.02 0 2.067-.282 2.232-2.423a6.2 6.2 0 0 0-1.528-.161" />
+              </svg></i></a>
+          <a href="https://github.com/26asma"><i class="bi bi-github"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="white" class="bi bi-github" viewBox="0 0 16 16">
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+              </svg></i></a>
+          <a href="live:.cid.a8707c1b4bd39043"><i class="bi bi-skype"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                class="bi bi-skype" viewBox="0 0 16 16">
+                <path
+                  d="M4.671 0c.88 0 1.733.247 2.468.702a7.42 7.42 0 0 1 6.02 2.118 7.37 7.37 0 0 1 2.167 5.215q0 .517-.072 1.026a4.66 4.66 0 0 1 .6 2.281 4.64 4.64 0 0 1-1.37 3.294A4.67 4.67 0 0 1 11.18 16c-.84 0-1.658-.226-2.37-.644a7.42 7.42 0 0 1-6.114-2.107A7.37 7.37 0 0 1 .529 8.035q0-.545.08-1.081a4.644 4.644 0 0 1 .76-5.59A4.68 4.68 0 0 1 4.67 0zm.447 7.01c.18.309.43.572.729.769a7 7 0 0 0 1.257.653q.737.308 1.145.523c.229.112.437.264.615.448.135.142.21.331.21.528a.87.87 0 0 1-.335.723c-.291.196-.64.289-.99.264a2.6 2.6 0 0 1-1.048-.206 11 11 0 0 1-.532-.253 1.3 1.3 0 0 0-.587-.15.72.72 0 0 0-.501.176.63.63 0 0 0-.195.491.8.8 0 0 0 .148.482 1.2 1.2 0 0 0 .456.354 5.1 5.1 0 0 0 2.212.419 4.6 4.6 0 0 0 1.624-.265 2.3 2.3 0 0 0 1.08-.801c.267-.39.402-.855.386-1.327a2.1 2.1 0 0 0-.279-1.101 2.5 2.5 0 0 0-.772-.792A7 7 0 0 0 8.486 7.3a1 1 0 0 0-.145-.058 18 18 0 0 1-1.013-.447 1.8 1.8 0 0 1-.54-.387.73.73 0 0 1-.2-.508.8.8 0 0 1 .385-.723 1.76 1.76 0 0 1 .968-.247c.26-.003.52.03.772.096q.412.119.802.293c.105.049.22.075.336.076a.6.6 0 0 0 .453-.19.7.7 0 0 0 .18-.496.72.72 0 0 0-.17-.476 1.4 1.4 0 0 0-.556-.354 3.7 3.7 0 0 0-.708-.183 6 6 0 0 0-1.022-.078 4.5 4.5 0 0 0-1.536.258 2.7 2.7 0 0 0-1.174.784 1.9 1.9 0 0 0-.45 1.287c-.01.37.076.736.25 1.063" />
+              </svg></i></a>
+          <a href="www.linkedin.com/in/asma-fathima-4ab260261"><i class="bi bi-linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+              </svg></i></a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid bg-dark">
+    <div class="d-flex flex-row flex-wrap container-fluid justify-content-center align-items-center">
+      <div class="img-box m-5">
+        <img src="images/profile.jpg" alt="">
+      </div>
+      <div class="abt-box text-white m-5">
+        <p>Nama: Vanaikar Asma Fathima</p>
+        <p>Age: 20 years old</p>
+        <p>Date of birth: 26-06-2004</p>
+        <p>Qualification: BCA</p>
+        <p>University: Madras university</p>
+        <p>Freelancing: Available</p>
+        <a href="resume/Asma-resume.pdf" Download  onclick="alert('downloaded successfully')"class="btn btn-outline-light">Download
+            resume</a>
+      </div>
+    </div>
+    <div class="container text-white d-flex flex-wrap flex-column align-items-center">
+      <h2 class="text-decoration-underline">About me</h2>
+      <div class="container d-flex flex-row flex-wrap justify-content-center align-items-center gap-5">
+        <!-- <img src="images/abt.jpg" alt="" style="border-radius: 50%;"> -->
+
+        <div class="content container">
+          <p> Hello there! I'm Asma Fathima, a recent BCA graduate trained as a web developer. Currently, I'm honing my
+            skills in JavaScript, aiming to enhance my proficiency. In my journey so far, I've successfully developed
+            several projects, including an eLearning platform, a website for Zaitoon Restaurant, Men's Avenue (a static
+            website), and even ventured into game development with projects like Tic Tac Toe. Additionally, I've
+            implemented useful tools like a calculator.
+            I thrive on the versatility of freelancing, allowing me to contribute flexibly and efficiently. My
+            availability knows no bounds—I'm ready to dive into projects at any hour. I'm enthusiastic about taking on
+            significant challenges and contributing to ambitious ventures.
+            Explore my portfolio to see how my skills and dedication can bring value to your projects. Let's collaborate
+            and create something amazing together!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container text-white d-flex flex-column align-items-center mx-5">
+
+      <h2 class="text-decoration-underline">Education background</h2>
+      <div class="content container d-flex justify-content-center align-items-center flex-wrap gap-5 m-5 med">
+        <img src="images/college-removebg-preview.png" alt="">
+        <p>
+          I completed my primary Education at As-Shukoor Matriculation school and secondary education at Hasnath-E-Jaria
+          Girls Higher Secondry School, where I developed a strong foundation in academics and extracurricular
+          activities. This period nurtured my curiosity and laid the groundwork for my future academic pursuits
+        </p>
+        <p>
+          I graduated with a Bachelor's degree in Computer Applications (BCA) from Madras University. Here, I
+          specialized in web development and gained hands-on experience in creating diverse projects. My college years
+          were pivotal in shaping my technical skills and preparing me for a career in the dynamic field of web
+          development.
+        </p>
+      </div>
+
+    </div>
+    <div class="container text-white d-flex flex-column align-items-center mx-5">
+      <h2 class="text-decoration-underline">skills</h2>
+      <h3>Modern and Trending skills</h3>
+      <div class="container d-flex flex-column justify-content-center align-items-center gap-3 m-5">
+        <div class="progress " role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+          aria-valuemax="100" style="width: 60vw; background:black;">
+          <div class="progress-bar fw-bold" style="width: 95%; background: white; color: black ">HTML</div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100" style="width: 60vw; background:black;">
+          <div class="progress-bar fw-bold" style="width: 90%; background: white; color: black">CSS</div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0"
+          aria-valuemax="100" style="width: 60vw; background:black;">
+          <div class="progress-bar fw-bold" style="width: 85%; background: white; color: black;">CONTENT WRITING</div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
+          aria-valuemax="100" style="width: 60vw; background:black;">
+          <div class="progress-bar fw-bold" style="width: 60%; background: white; color: black">JAVA SCRIPT</div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+          aria-valuemax="100" style="width: 60vw; background:black;">
+          <div class="progress-bar fw-bold" style="width: 55%; background: white; color: black">UI/UX design</div>
+        </div>
+      </div>
+      <div class="content container d-flex flex-wrap justify-content-center align-items-center gap-5">
+        <h3 class="text-decoration-underline">Other skills</h3>
+        <div class="box d-flex align-items-center gap-3 flex-wrap">
+          <div class="info d-flex gap-4 justify-content-center align-items-center">
+            <img src="images/c.png " alt="" height="100px" width="100px">
+            <h2 class="text-white">C-Language</h2>
+          </div>
+          <p>Proficient in C programming with experience in developing efficient algorithms and data structures to solve
+            complex problems, Skilled in implementing software solutions using C, ensuring code optimization and
+            adherence to industry best practices.</p>
+
+        </div>
+        <div class="box d-flex  align-items-center gap-3 flex-wrap">
+          <div class="info d-flex gap-4 justify-content-center align-items-center">
+            <img src="images/cpp.png" alt="" height="100px" width="100px">
+            <h2 class="text-white">C++ Language</h2>
+          </div>
+          <p>Experienced in C++ programming, adept at object-oriented programming principles and designing scalable
+            applications,Developed robust applications and systems in C++, leveraging its features for performance and
+            maintainability</p>
+
+        </div>
+
+        <div class="box d-flex  align-items-center gap-3 flex-wrap">
+          <div class="info d-flex gap-4 justify-content-center align-items-center">
+            <img src="images/excel-removebg-preview.png" alt="" height="100px" width="100px">
+            <h2 class="text-white">MS-Excel</h2>
+          </div>
+          <p>Advanced proficiency in MS Excel, including data analysis, reporting, and visualization using functions,
+            pivot tables, and macros,Experienced in creating dynamic spreadsheets and automating tasks to streamline
+            data processing and improve productivity.</p>
+
+        </div>
+        <div class="box d-flex  align-items-center gap-3 flex-wrap">
+          <div class="info d-flex gap-4 justify-content-center align-items-center">
+            <img src="images/sql-removebg-preview.png" alt="" height="100px" width="150px">
+            <h2 class="text-white">SQL</h2>
+          </div>
+          <p>Proficient in SQL with hands-on experience in designing and optimizing relational databases.
+            Skilled in writing complex SQL queries, stored procedures, and database management to ensure efficient data
+            retrieval and manipulation.</p>
+        </div>
+        <h3 class="text-decoration-underline">Tools I'M Familiar with</h3>
+        <div class="box d-flex  align-items-center gap-3 flex-wrap">
+          <div class="info d-flex gap-4 justify-content-center align-items-center">
+            <img src="images/github-removebg-preview.png" alt="" height="100px" width="100px">
+            <h2 class="text-white">GitHub</h2>
+          </div>
+          <p>Proficient in using GitHub as a collaborative platform for version control and project management.
+            Experienced in leveraging GitHub for code repository hosting, branching, merging, and pull requests.
+            Capable of utilizing GitHub's issue tracking, wiki, and project management tools to facilitate efficient
+            team collaboration and software development workflows.</p>
+        </div>
+        <div class="box d-flex align-items-center gap-3 flex-wrap">
+          <div class="info d-flex gap-4 justify-content-center align-items-center">
+            <img src="images/vs-removebg-preview (1).png" alt="" height="100px" width="100px">
+            <h2 class="text-white">VS code</h2>
+          </div>
+          <p>Proficient in using VS Code as a versatile and lightweight code editor for various programming languages.
+            Experienced in customizing workflows and integrating extensions to enhance productivity and development
+            efficiency.
+            Capable of leveraging VS Code's debugging tools and version control integration for seamless project
+            management.</p>
+        </div>
+        <div class="box d-flex  align-items-center gap-3 flex-wrap">
+          <div class="info d-flex gap-4 justify-content-center align-items-center">
+            <img src="images/vb.jfif" alt="" height="100px" width="100px">
+            <h2 class="text-white">Visual basic</h2>
+          </div>
+          <p>Proficient in Visual Basic (VB), specializing in developing Windows-based applications and user interfaces.
+            Skilled in integrating database access, GUI design, and event-driven programming in Visual Basic
+            applications.</p>
+        </div>
+        <div class="box d-flex  align-items-center gap-3 flex-wrap">
+          <div class="info d-flex gap-4 justify-content-center align-items-center">
+            <img src="images/turbo-removebg-preview.png" alt="" height="100px" width="100px">
+            <h2 class="text-white">TURBO C</h2>
+          </div>
+          <p>Skilled in Turbo C, a legacy integrated development environment (IDE) for C programming.
+            Experienced in developing applications with Turbo C, focusing on efficient memory management and
+            compatibility with older systems.
+            Proficient in utilizing Turbo C's compiler and debugging tools to create robust and optimized software
+            solutions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container text-white d-flex flex-column align-items-center mx-5">
+      <h2 class="text-decoration-underline"> Persnal Interest</h2>
+      <div class="box d-flex  align-items-center gap-3 flex-wrap mt-5">
+        <div class="info d-flex gap-4 justify-content-center align-items-center">
+          <img src="images/reading-removebg-preview.png" alt="" height="100px" width="100px">
+          <h2 class="text-white">Reading</h2>
+        </div>
+        <p> I have a deep passion for reading across various genres, from classic literature to contemporary fiction and
+          non-fiction,Reading allows me to explore diverse perspectives and gain insights into different cultures,
+          histories, and human experiences,I believe in the power of books to expand knowledge and foster personal
+          growth, continuously seeking new ideas and perspectives through reading.
+          Some of my favorite authors include Collen hoover, and I particularly enjoy thrill,suspense for its ability to
+          make me engage and addicted to enhance my reading skills effortlessly!
+        </p>
+      </div>
+      <div class="box d-flex  align-items-center gap-3 flex-wrap mt-5">
+        <div class="info d-flex gap-4 justify-content-center align-items-center">
+          <img src="images/writing-removebg-preview.png" alt="" height="100px" width="100px">
+          <h2 class="text-white">Writing Poems</h2>
+        </div>
+        <p>Beyond reading, I find joy in crafting my own poems,Writing poetry allows me to express emotions and ideas in
+          a unique and introspective way, connecting with readers on a deeper level,I am passionate about honing my
+          craft in poetry, experimenting with different forms and styles to convey nuanced meanings and evoke emotions.
+          Writing poetry is not just a hobby but a journey of personal growth and self-discovery, continually refining
+          my voice and storytelling abilities.
+          checkout my poems!
+        </p>
+        <a href="https://allpoetry.com/Asma26"><button class="btn btn-outline-light"class="text-decoration-none" >My poems</button></a>
+      </div>
+      <div class="box d-flex  align-items-center gap-3 flex-wrap mt-5">
+        <div class="info d-flex gap-4 justify-content-center align-items-center">
+          <img src="images/design.png" alt="" height="100px" width="100px">
+          <h2 class="text-white">Designing</h2>
+        </div>
+        <p> Designing is more than a skill for me; it's a passion that allows me to blend creativity with functionality
+          to create visually compelling and user-friendly solutions, Proficient in industry-standard design tools like
+          Adobe Creative Suite (Photoshop, Illustrator, InDesign), I bring concepts to life with precision and
+          innovation.
+
+        </p>
+      </div>
+    </div>
+    <div class="container text-white d-flex flex-column align-items-center mx-5">
+      <h2 class="text-decoration-underline">Experience</h2>
+      <div class="box d-flex  align-items-center gap-3 flex-wrap mt-5">
+        <div class="info d-flex gap-4 justify-content-center align-items-center">
+          <img src="images/icon - trans.png" alt="" height="100px" width="100px">
+          <h2 class="text-white">Aspirasys</h2>
+          
+        </div>
+        <p>"I am currently undergoing a comprehensive training program at Aspirasys, where I am focusing on developing
+          my skills as a web developer. My training includes a rigorous exploration of JavaScript, a foundational
+          language essential for creating dynamic and interactive web applications. Moving forward, I am eager to
+          broaden my expertise by delving into PHP and React.js, enhancing my proficiency in backend development and
+          modern frontend frameworks.
+</p>
+          <p>In addition to my training at Aspirasys, I have attended practical sessions conducted by Madras University.
+          These sessions covered various languages such as Java, C, C++, and SQL. They provided me with hands-on
+          experience and a solid understanding of core programming concepts and database management.
+
+          During my training and practical sessions, I have applied my knowledge in JavaScript to real-world projects,
+          where I have successfully implemented solutions to improve user experience and functionality. These
+          experiences have reinforced my ability to translate theoretical knowledge into practical applications and have
+          fueled my enthusiasm for continuous learning and professional growth in web development."
+
+          This expanded version not only highlights your current training and skills development but also emphasizes
+          your proactive approach to learning through practical sessions conducted by Madras University, enriching your
+          understanding across multiple programming languages
+        </p>
+        <button class="btn btn-outline-light"><a href="https://aspirasys.com/"></a>Know More</button> 
+        <button class="btn btn-outline-light">Follow on Instagram <i class="fab fa-instagram text-decoration-none text-black"><a href="https://www.instagram.com/aspirasystemofficial/"></a></i></button>
+        
+      </div>
+    </div>
+    <div class="container text-white d-flex flex-column align-items-center mt-5">
+      <h2 class="text-decoration-underline">Certificates</h2>
+      <div class="container">
+        
+        <div class="scrolling-container">
+          <div class="row flex-nowrap">
+      
+            <div class="col-auto">
+              <div class="card">
+                <img src="images/cer5.JPEG"  width="250px" height="200px" class="card-img-top" alt="Card image">
+                <div class="card-body">
+                  <h5 class="card-title">English poetry</h5>
+               
+                </div>
+              </div>
+            </div>
+            
+           
+            <div class="col-auto">
+              <div class="card">
+                <img src="images/cer1.JPEG"  width="250px" height="200px" class="card-img-top" alt="Card image">
+                <div class="card-body">
+                  <h5 class="card-title">Urdu poetry</h5>
+                
+                </div>
+              </div>
+            </div>
+            
+          
+            <div class="col-auto">
+              <div class="card">
+                <img src="images/cer6.JPEG"  width="250px" height="200px" class="card-img-top" alt="Card image">
+                <div class="card-body">
+                  <h5 class="card-title">Quiz competition</h5>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-auto">
+              <div class="card">
+                <img src="images/cer2.JPEG" width="250px" height="200px" class="card-img-top" alt="Card image">
+                <div class="card-body">
+                  <h5 class="card-title">science exhibition</h5>
+              
+                </div>
+              </div>
+            </div>
+            <div class="col-auto">
+              <div class="card">
+                <img src="images/cer3.JPEG"   width="250px" height="200px"class="card-img-top" alt="Card image">
+                <div class="card-body">
+                  <h5 class="card-title">Drawing</h5>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-auto">
+              <div class="card">
+                <img src="images/cer7.JPEG"   width="250px" height="200px"class="card-img-top" alt="Card image">
+                <div class="card-body">
+                  <h5 class="card-title">Fancy dress competition</h5>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-auto">
+              <div class="card">
+                <img src="images/cer4.jpg"   width="250px" height="200px"class="card-img-top" alt="Card image">
+                <div class="card-body">
+                  <h5 class="card-title">Drawing</h5>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-white d-flex flex-column align-items-center mt-5 p-0">
+      <h2 class="text-decoration-underline">Reviews</h2>
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg border-light">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <div class="space d-flex gap-5 justify-content-center align-items-center">
+<img src="images/abt2.jpg" class="rounded-circle" alt="" height="70px" width="70px" >
+<h3>Lorem ipsum dolor  </h3>
+              </div>
+              <p class="pt-2 mt-2 mb-4   fw-bold">Lorem ipsum dolor sit amet Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, neque.
+              </p>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                 <i class="fa fa-instagram m-2"></i>
+                 <i class="fa fa-linkedin m-2"></i>
+                 <i class="fa fa-twitter m-2"></i>
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <i class="fa fa-location-pin m-2"></i>
+                  <small>Chennai</small>
+                </li>
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg border-light">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <div class="space d-flex gap-3 align-items-center justify-content-center">
+<img src="images/abt2.jpg" class="rounded-circle" alt="" height="70px" width="70px" >
+<h3>Lorem, ipsum dolor.</h3>
+              </div>
+              <h5 class="pt-2 mt-2 mb-4   fw-bold">Short title, long jacket</h5>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                 <i class="fa fa-instagram m-2"></i>
+                 <i class="fa fa-linkedin m-2"></i>
+                 <i class="fa fa-twitter m-2"></i>
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <i class="fa fa-location-pin m-2"></i>
+                  <small>Chennai</small>
+                </li>
+              
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg border-light">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <div class="space d-flex gap-3 justify-content-center align-items-center">
+<img src="images/abt2.jpg" class="rounded-circle" alt="" height="70px" width="70px">
+<h4>Noorunisha Afrin</h4>
+              </div>
+              <h5 class="pt-2 mt-2 mb-4   fw-bold">Asma is a dedicated and a excellent person in every field! working with her made my prfessional life joyable and easy </h5>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                 <i class="fa fa-instagram m-2"></i>
+                 <i class="fa fa-linkedin m-2"></i>
+                 <i class="fa fa-twitter m-2"></i>
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <i class="fa fa-location-pin m-2"></i>
+                  <small>Chennai</small>
+                </li>
+           
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer text-white mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0  ">
+            <h5 class="mb-4 text-decoration-underline ">About Me</h5>
+            <p class="text-white">Hi, I'm Asma, a passionate Web Developer. This is my personal portfolio
+              showcasing my work and skills.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <h5 class="mb-4 text-white text-decoration-underline">Quick Links</h5>
+            <ul class="list-unstyled mb-0 text-white">
+              <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+              <li><a href="abt.html" class="text-white text-decoration-none">About</a></li>
+              <li><a href="works.html" class="text-white text-decoration-none">Portfolio</a></li>
+              <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="mb-4 text-decoration-underline">Contact Me</h5>
+            <p>
+              Email: <a href="fathimasma26@gmail.com"
+                class="text-white text-decoration-none">fathimasma26@gmail.com</a><br>
+              Phone: +1234567890
+            </p>
+            <ul class="list-inline text-white">
+              <li class="list-inline-item"><a href="#"><i class="fab fa-twitter text-decoration-none text-white"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="#"><i class="fab fa-github text-decoration-none text-white"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="#"><i class="fab fa-threads text-decoration-none text-white"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="#"><i
+                    class="fab fa-instagram text-decoration-none text-white"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin text-decoration-none text-white"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="bg-light">
+        <div class="text-center">
+          <p class="text-white m-0 p-0">&copy; 2024 Asma. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
